@@ -1,0 +1,51 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../tv.xml</include>
+
+	<view name="system">
+
+		<image name="logo">
+			<path>./art/gba.svg</path>
+        </image>
+		
+		
+	</view>
+
+	<view name="basic, detailed, video">
+	
+		<text name="system_name_1" extra="true">
+			<text>[lr-gambatte]</text>
+			<size>0.45 0.06</size>
+			<pos>0.527 0</pos>
+			<color>d7d7d7</color>
+			<fontPath>./../art/invisible.ttf</fontPath>
+			<fontSize>0.030</fontSize>
+			<alignment>right</alignment>
+		</text>
+		
+        <helpsystem name="help">
+            <pos>0.0 0.930</pos>
+            <textColor>000000</textColor>
+            <iconColor>000000</iconColor>
+            <fontPath></fontPath>
+            <fontSize>0.056</fontSize>
+        </helpsystem>
+		
+		<image name="logo">
+			<path>./art/gba_sub.svg.png</path>
+			<pos>0.646 0.016</pos>
+			<size>0.3791 0.15</size>
+
+		</image>
+		
+
+	</view>
+	<view name="basic">
+	
+	</view>
+
+	<view name="detailed">
+
+	</view>
+	
+</theme>
