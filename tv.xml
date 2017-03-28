@@ -38,7 +38,7 @@ license:		creative commons CC-BY-NC-SA
     </carousel>
 
     <text name="systemInfo">
-      <backgroundColor>FFFFFF00</backgroundColor>
+      <backgroundColor>00000000</backgroundColor>
       <pos>0.119 0.630</pos>
 	  <color>000000</color>
       <fontPath>./art/Grandma's Television.otf</fontPath>
@@ -46,8 +46,8 @@ license:		creative commons CC-BY-NC-SA
     </text>
         <helpsystem name="help">
             <pos>0.0 0.900</pos>
-            <textColor>000000</textColor>
-            <iconColor>000000</iconColor>
+            <textColor>f2f2f2</textColor>
+            <iconColor>f2f2f2</iconColor>
             <fontPath></fontPath>
             <fontSize>0.092</fontSize>
         </helpsystem>
@@ -92,7 +92,7 @@ license:		creative commons CC-BY-NC-SA
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<size>0 1</size>
-			<path>./art/menu.jpg</path>
+			<path>./art/sysbk.jpg</path>
 		</image> 
 
 	<textlist name="gamelist">
@@ -103,7 +103,13 @@ license:		creative commons CC-BY-NC-SA
 			<fontPath>./art/OPENSANS.TTF</fontPath>
 			<fontSize>0.030</fontSize>
 		</textlist>
-		
+	        <helpsystem name="help">
+            <pos>0.0 0.930</pos>
+            <textColor>000000</textColor>
+            <iconColor>000000</iconColor>
+            <fontPath></fontPath>
+            <fontSize>0.056</fontSize>
+        </helpsystem>	
 	</view>
 
 	<view name="basic">
@@ -127,7 +133,7 @@ license:		creative commons CC-BY-NC-SA
  
 		<text name="md_description">
 			<size>0.0 0.0</size>
-			<pos>0.00 0.00</pos>
+			<pos>-1.00 -1.00</pos>
 			<color>FFFFFF</color>
 			<fontPath>./art/OPENSANS.TTF</fontPath>
 			<fontSize>0.00</fontSize>
@@ -173,7 +179,7 @@ license:		creative commons CC-BY-NC-SA
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<size>0 1</size>
-			<path>./art/menu.jpg</path>
+			<path>./art/sysbk.jpg</path>
 		</image> 
 		
 		<image name="md_marquee">
