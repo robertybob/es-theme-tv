@@ -7,7 +7,6 @@
 
 ## To Do
 
-1.  Change 'Help Text' to white
-2.  Figure out how to put videos behind the TV i.e. so it takes up the whole of the TV's screen
-3.  Use different system banners for the detailed etc. views.
-4.  In system view, add an image to the tv that changes per system 
+1.  Figure out how to put videos behind the TV i.e. so it takes up the whole of the TV's screen
+2.  Use different system banners for the detailed etc. views.
+3.  In system view, add an image to the tv that changes per system 
