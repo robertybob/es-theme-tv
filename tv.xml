@@ -15,7 +15,7 @@ license:		creative commons CC-BY-NC-SA
 	 	
 	 
 		<image name="background" extra="true">
-		    <path>./art/sysbk.jpg</path>
+		    <path>./art/sysbk.png</path>
 			<maxSize>0 1</maxSize>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
@@ -92,7 +92,7 @@ license:		creative commons CC-BY-NC-SA
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0 1</maxSize>
-			<path>./art/sysbk.jpg</path>
+			<path>./art/sysbk.png</path>
 		</image> 
 
 	<textlist name="gamelist">
@@ -180,7 +180,7 @@ license:		creative commons CC-BY-NC-SA
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0 1</maxSize>
-			<path>./art/sysbk.jpg</path>
+			<path>./art/sysbk.png</path>
 		</image> 
 		
 		<image name="md_marquee">
