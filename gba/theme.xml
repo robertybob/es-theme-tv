@@ -3,7 +3,15 @@
     <include>./../tv.xml</include>
 
 	<view name="system">
-	 
+	
+	<image name="Border" extra="true">
+		<tile>false</tile>
+		<pos>0.642 0.658</pos>
+		<origin>0.642 0.658</origin>
+		<size>0.1799 0.277</size>
+		<path>./art/gba.png</path>
+	</image>
+	
 		<image name="logo">
 			<path>./art/gba.svg</path>
         </image>
@@ -23,7 +31,7 @@
 		</text>
 			
 		<image name="logo">
-			<path>./art/gba_sub.svg.png</path>
+			<path>./art/clean_gameboy_advance.svg.png</path>
 			<pos>0.646 0.016</pos>
 			<size>0.3791 0.15</size>
 
