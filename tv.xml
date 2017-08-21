@@ -16,7 +16,7 @@ license:		creative commons CC-BY-NC-SA
 	 
 		<image name="background" extra="true">
 		    <path>./art/sysbk.png</path>
-			<maxSize>0 1</maxSize>
+			<size>0 1</size>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 		</image>
@@ -30,7 +30,7 @@ license:		creative commons CC-BY-NC-SA
     <carousel name="systemcarousel">
       <type>vertical</type>
       <pos>-0.350 0.039</pos>
-      <maxSize>1 0.8000</maxSize>
+      <size>1 0.8000</size>
       <color>FFFFFF00</color>
       <logoScale>2</logoScale>
       <logoSize>0.125 0.155</logoSize>
@@ -62,7 +62,7 @@ license:		creative commons CC-BY-NC-SA
 			<forceUppercase>1</forceUppercase>
 			<fontPath>./art/invisible.ttf</fontPath>
 			<fontSize>0.02</fontSize>
-			<maxSize>0.18 0.05</maxSize>
+			<size>0.18 0.05</size>
 		</text>
 		
 		<text name="md_developer, md_publisher, md_genre, md_players, md_playcount">
@@ -70,7 +70,7 @@ license:		creative commons CC-BY-NC-SA
 			<forceUppercase>1</forceUppercase>
 			<fontPath>./art/invisible.ttf</fontPath>
 			<fontSize>0.02</fontSize>
-			<maxSize>0.18 0.05</maxSize>
+			<size>0.18 0.05</size>
 		</text>
 		
 		<text name="md_description">
@@ -85,13 +85,13 @@ license:		creative commons CC-BY-NC-SA
 			<forceUppercase>1</forceUppercase>
 			<fontPath>./art/invisible.ttf</fontPath>
 			<fontSize>0.02</fontSize>
-			<maxSize>0 0.05</maxSize>
+			<size>0 0.05</size>
 		</datetime>
 		
 		<image name="background">
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
-			<maxSize>0 1</maxSize>
+			<size>0 1</size>
 			<path>./art/sysbk.png</path>
 		</image> 
 
@@ -116,7 +116,7 @@ license:		creative commons CC-BY-NC-SA
 		
 			<textlist name="gamelist">
 			<pos>-0.0100 0.00</pos>
-			<maxSize>0.480 0.84</maxSize>
+			<size>0.480 0.84</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 		</textlist>	
@@ -126,13 +126,13 @@ license:		creative commons CC-BY-NC-SA
 	<view name="detailed">
  
 			<image name="md_image">
-			<maxSize>0.170 0.229</maxSize>
+			<size>0.170 0.229</size>
 			<pos>0.641 0.700</pos>
 			<origin>0.641 0.700</origin>
 		</image>
  
 		<text name="md_description">
-			<maxSize>0.0 0.0</maxSize>
+			<size>0.0 0.0</size>
 			<pos>-1.00 -1.00</pos>
 			<color>FFFFFF</color>
 			<fontPath>./art/OPENSANS.TTF</fontPath>
@@ -141,13 +141,13 @@ license:		creative commons CC-BY-NC-SA
 		
 		<textlist name="gamelist">
 			<pos>-0.0100 0.00</pos>
-			<maxSize>0.480 0.84</maxSize>
+			<size>0.480 0.84</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 		</textlist>	
 		
 		<rating name="md_rating">
-			<maxSize>0.0 0.00</maxSize>
+			<size>0.0 0.00</size>
 			<pos>-1.990 -1.990</pos>
 			<filledPath>./art/star.png</filledPath>
 
@@ -159,7 +159,7 @@ license:		creative commons CC-BY-NC-SA
 	<view name="video">
  
 		<text name="md_description">
-			<maxSize>0.0 0.0</maxSize>
+			<size>0.0 0.0</size>
 			<pos>0.00 0.00</pos>
 			<color>FFFFFF</color>
 			<fontPath>./art/OPENSANS.TTF</fontPath>
@@ -167,7 +167,7 @@ license:		creative commons CC-BY-NC-SA
 		</text>
 		
 		<video name="md_video">
-			<maxSize>0.240 0.289</maxSize>
+			<size>0.240 0.289</size>
 			<pos>0.656 0.715</pos>
 			<origin>0.656 0.715</origin>
 			<zIndex>5</zIndex>
@@ -176,28 +176,28 @@ license:		creative commons CC-BY-NC-SA
 			<showSnapshotDelay>false</showSnapshotDelay>
 		</video>
 
-				<image name="background">
+			<image name="background">
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
-			<maxSize>0 1</maxSize>
+			<size>0 1</size>
 			<path>./art/sysbk.png</path>
 		</image> 
 		
 		<image name="md_marquee">
-			<maxSize>0.000 0.000</maxSize>
+			<size>0.000 0.000</size>
 			<pos>-0.000 -0.000</pos>
 			<origin>-0.0 -0.0</origin>
 		</image>
 	
 		<textlist name="gamelist">
 			<pos>-0.0100 0.00</pos>
-			<maxSize>0.480 0.84</maxSize>
+			<size>0.480 0.84</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 		</textlist>	
 		
 	<rating name="md_rating">
-			<maxSize>0.0 0.00</maxSize>
+			<size>0.0 0.00</size>
 			<pos>0.0 0.0</pos>
 			<filledPath>./art/invisible.png</filledPath>
 
