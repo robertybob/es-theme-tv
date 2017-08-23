@@ -2,9 +2,9 @@
 
 NEED NEW IMAGES, THESE ARE OUT OF DATE
 
-![System View](http://i67.tinypic.com/ajuoh2.png "System View")
+![System View](http://i66.tinypic.com/6iwfnm.png "System View")
 
-![Game Select View](http://i63.tinypic.com/30907sh.png "Select a Game")
+![Game Select View](http://i66.tinypic.com/m08cn.png "Select a Game")
 
 
 ## To Do
