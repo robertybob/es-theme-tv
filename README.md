@@ -9,5 +9,4 @@ NEED NEW IMAGES, THESE ARE OUT OF DATE
 
 ## To Do
 
-1.  Use different system banners for the detailed etc. views.
-2.  In system view, add an image to the tv that changes per system 
+1. Figure out how to get videos to fit within the TV screen
