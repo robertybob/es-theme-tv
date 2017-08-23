@@ -14,7 +14,7 @@ license:		creative commons CC-BY-NC-SA
   <view name="system">
 	 
 		<image name="background" extra="true">
-	    		<path>./art/sysbk.png</path>
+	    		<path>./art/sysbkfuzz.png</path>
 			<size>1 1</size>
 			<pos>0 0</pos>
 			<origin>0.0 0.0</origin>
@@ -85,7 +85,7 @@ license:		creative commons CC-BY-NC-SA
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
-			<path>./art/sysbk.png</path>
+			<path>./art/sysbkfuzz.png</path>
 		</image> 
 
 		<textlist name="gamelist">
