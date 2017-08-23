@@ -31,7 +31,7 @@
 		</text>
 			
 		<image name="logo">
-			<path>./art/clean_32x.svg.png</path>
+			<path>./art/clean_sega32x.svg.png</path>
 			<pos>0.646 0.016</pos>
 			<size>0.3791 0.15</size>
 
