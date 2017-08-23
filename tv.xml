@@ -80,13 +80,6 @@ license:		creative commons CC-BY-NC-SA
 			<fontSize>0.02</fontSize>
 			<size>0 0.05</size>
 		</datetime>
-		
-		<image name="background">
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>1 1</size>
-			<path>./art/sysbk.png</path>
-		</image> 
 
 		<textlist name="gamelist">
 		    	<selectorColor>ffffff00</selectorColor>
@@ -114,7 +107,13 @@ license:		creative commons CC-BY-NC-SA
 			<alignment>left</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 		</textlist>	
-		
+	
+		<image name="background">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/sysbkfuzz.png</path>
+		</image> 		
 	</view>
 
 	<view name="detailed">
@@ -146,6 +145,12 @@ license:		creative commons CC-BY-NC-SA
 			<filledPath>./art/star.png</filledPath>
 		</rating>
 
+		<image name="background">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./art/sysbkfuzz.png</path>
+		</image> 		
 	</view>
 
   <feature supported="video">
