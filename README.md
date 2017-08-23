@@ -1,6 +1,5 @@
 ## Images
 
-NEED NEW IMAGES, THESE ARE OUT OF DATE
 
 ![System View](http://i66.tinypic.com/6iwfnm.png "System View")
 
