@@ -4,55 +4,48 @@ version:		1
 author:			robertybob
 website:		http://blog.petrockblock.com/community/members/robertybob/profile/
 license:		creative commons CC-BY-NC-SA
-
-
 -->
 
+<?xml version="1.0" encoding="UTF-8"?>
 <theme>
-    <formatVersion>4</formatVersion>
+  <formatVersion>4</formatVersion>
 
-	<view name="system">
-	 	
+  <feature supported="carousel">
+  <view name="system">
 	 
 		<image name="background" extra="true">
-		    <path>./art/sysbk.png</path>
-			<size>0 1</size>
-			<pos>0.5 0.5</pos>
-			<origin>0.5 0.5</origin>
+	    		<path>./art/sysbk.png</path>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0.0 0.0</origin>
 		</image>
 		
-		</view>
+    		<carousel name="systemcarousel">
+      			<type>vertical</type>
+      			<pos>0.006 0.005</pos>
+      			<size>0.4 0.8000</size>
+      			<color>FFFFFF00</color>
+      			<logoScale>2</logoScale>
+      			<logoSize>0.125 0.155</logoSize>
+      			<maxLogoCount>3</maxLogoCount>
+    		</carousel>
 
-	<feature supported="carousel">
-  
-  <view name="system">
+    		<text name="systemInfo">
+      			<backgroundColor>00000000</backgroundColor>
+      			<pos>0.119 0.730</pos>
+	  		<color>000000</color>
+      			<fontPath>./art/Grandma's Television.otf</fontPath>
+      			<fontSize>0.02</fontSize>
+    		</text>
 
-    <carousel name="systemcarousel">
-      <type>vertical</type>
-      <pos>-0.350 0.039</pos>
-      <size>1 0.8000</size>
-      <color>FFFFFF00</color>
-      <logoScale>2</logoScale>
-      <logoSize>0.125 0.155</logoSize>
-      <maxLogoCount>3</maxLogoCount>
-    </carousel>
-
-    <text name="systemInfo">
-      <backgroundColor>00000000</backgroundColor>
-      <pos>0.119 0.730</pos>
-	  <color>000000</color>
-      <fontPath>./art/Grandma's Television.otf</fontPath>
-      <fontSize>0.022</fontSize>
-    </text>
-        <helpsystem name="help">
-            <pos>0.0 0.900</pos>
-            <textColor>f2f2f2</textColor>
-            <iconColor>f2f2f2</iconColor>
-            <fontPath></fontPath>
-            <fontSize>0.092</fontSize>
-        </helpsystem>
+        	<helpsystem name="help">
+				<pos>0.0 0.900</pos>
+				<textColor>f2f2f2</textColor>
+				<iconColor>f2f2f2</iconColor>
+				<fontPath>./art/Grandma's Television.otf</fontPath>
+				<fontSize>0.092</fontSize>
+       		</helpsystem>
   </view>
-
   </feature>	
 
     <view name="basic, detailed, video">
@@ -89,32 +82,33 @@ license:		creative commons CC-BY-NC-SA
 		</datetime>
 		
 		<image name="background">
-			<pos>0.5 0.5</pos>
-			<origin>0.5 0.5</origin>
-			<size>0 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
 			<path>./art/sysbk.png</path>
 		</image> 
 
-	<textlist name="gamelist">
-		    <selectorColor>ffffff00</selectorColor>
+		<textlist name="gamelist">
+		    	<selectorColor>ffffff00</selectorColor>
 			<selectedColor>ffffff</selectedColor>
 			<primaryColor>000000</primaryColor>
 			<secondaryColor>800000</secondaryColor>
 			<fontPath>./art/OPENSANS.TTF</fontPath>
 			<fontSize>0.030</fontSize>
 		</textlist>
+
 	        <helpsystem name="help">
-            <pos>0.0 0.930</pos>
-            <textColor>f2f2f2</textColor>
-            <iconColor>f2f2f2</iconColor>
-            <fontPath></fontPath>
-            <fontSize>0.056</fontSize>
-        </helpsystem>	
+            		<pos>0.0 0.930</pos>
+            		<textColor>f2f2f2</textColor>
+            		<iconColor>f2f2f2</iconColor>
+            		<fontPath>./art/Grandma's Television.otf</fontPath>
+            		<fontSize>0.056</fontSize>
+        	</helpsystem>	
 	</view>
 
 	<view name="basic">
 		
-			<textlist name="gamelist">
+		<textlist name="gamelist">
 			<pos>-0.0100 0.00</pos>
 			<size>0.480 0.84</size>
 			<alignment>left</alignment>
@@ -125,8 +119,8 @@ license:		creative commons CC-BY-NC-SA
 
 	<view name="detailed">
  
-			<image name="md_image">
-			<size>0.170 0.229</size>
+		<image name="md_image">
+			<maxSize>0.170 0.229</maxSize>
 			<pos>0.641 0.700</pos>
 			<origin>0.641 0.700</origin>
 		</image>
@@ -136,7 +130,7 @@ license:		creative commons CC-BY-NC-SA
 			<pos>-1.00 -1.00</pos>
 			<color>FFFFFF</color>
 			<fontPath>./art/OPENSANS.TTF</fontPath>
-			<fontSize>0.00</fontSize>
+			<fontSize>0.02</fontSize>
 		</text>
 		
 		<textlist name="gamelist">
@@ -150,41 +144,40 @@ license:		creative commons CC-BY-NC-SA
 			<size>0.0 0.00</size>
 			<pos>-1.990 -1.990</pos>
 			<filledPath>./art/star.png</filledPath>
-
 		</rating>
+
 	</view>
 
-<feature supported="video">
-
+  <feature supported="video">
 	<view name="video">
  
 		<text name="md_description">
 			<size>0.0 0.0</size>
 			<pos>0.00 0.00</pos>
 			<color>FFFFFF</color>
-			<fontPath>./art/OPENSANS.TTF</fontPath>
-			<fontSize>0.00</fontSize>
+			<fontPath>./art/invisible.ttf</fontPath>
+			<fontSize>0.02</fontSize>
 		</text>
 		
 		<video name="md_video">
-			<size>0.240 0.289</size>
+			<maxSize>0.240 0.289</maxSize>
 			<pos>0.656 0.715</pos>
 			<origin>0.656 0.715</origin>
 			<zIndex>5</zIndex>
 			<delay>0.0</delay>
-			<showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
 		</video>
 
-			<image name="background">
-			<pos>0.5 0.5</pos>
-			<origin>0.5 0.5</origin>
-			<size>0 1</size>
+		<image name="background">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<maxSize>1 1</maxSize>
 			<path>./art/sysbk.png</path>
 		</image> 
 		
 		<image name="md_marquee">
-			<size>0.000 0.000</size>
+			<maxSize>0.000 0.000</maxSize>
 			<pos>-0.000 -0.000</pos>
 			<origin>-0.0 -0.0</origin>
 		</image>
@@ -196,14 +189,13 @@ license:		creative commons CC-BY-NC-SA
 			<horizontalMargin>0.01</horizontalMargin>
 		</textlist>	
 		
-	<rating name="md_rating">
+		<rating name="md_rating">
 			<size>0.0 0.00</size>
 			<pos>0.0 0.0</pos>
 			<filledPath>./art/invisible.png</filledPath>
-
 		</rating>
-	</view>
 
-</feature>
+	</view>
+  </feature>
 
 </theme>
