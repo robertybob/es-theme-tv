@@ -1,9 +1,10 @@
 ## Images
 
-
+System View
 ![System View](http://i66.tinypic.com/6iwfnm.png "System View")
 
-![Game Select View](http://i66.tinypic.com/m08cn.png "Select a Game")
+Game Select View (Basic View)
+![Game Select View](http://i66.tinypic.com/2r4hekj.png "Select a Game")
 
 
 ## To Do
