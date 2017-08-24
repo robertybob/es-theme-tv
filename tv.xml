@@ -165,12 +165,12 @@ license:		creative commons CC-BY-NC-SA
 		</text>
 		
 		<video name="md_video">
-			<maxSize>0.240 0.289</maxSize>
-			<pos>0.656 0.715</pos>
-			<origin>0.656 0.715</origin>
+			<maxSize>0.240 0.360</maxSize>
+			<pos>0.650 0.755</pos>
+			<origin>0.650 0.755</origin>
 			<zIndex>5</zIndex>
 			<delay>0.0</delay>
-			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotNoVideo>false</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
 		</video>
 
