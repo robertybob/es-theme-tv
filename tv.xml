@@ -179,6 +179,7 @@ license:		creative commons CC-BY-NC-SA
 			<origin>0 0</origin>
 			<maxSize>1 1</maxSize>
 			<path>./art/sysbk.png</path>
+			<zIndex>6</zIndex>
 		</image> 
 		
 		<image name="md_marquee">
