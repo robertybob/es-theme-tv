@@ -6,9 +6,9 @@
 	
 	<image name="Border" extra="true">
 		<tile>false</tile>
-		<pos>0.642 0.645</pos>
-		<origin>0.642 0.645</origin>
-		<size>0.1799 0.177</size>
+		<pos>0.632 0.645</pos>
+		<origin>0.632 0.645</origin>
+		<size>0.1199 0.177</size>
 		<path>./art/gbc.png</path>
 	</image>
 	
