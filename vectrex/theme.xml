@@ -6,9 +6,9 @@
 	
 	<image name="Border" extra="true">
 		<tile>false</tile>
-		<pos>0.642 0.658</pos>
-		<origin>0.642 0.658</origin>
-		<size>0.1799 0.277</size>
+		<pos>0.637 0.658</pos>
+		<origin>0.637 0.658</origin>
+		<size>0.1100 0.209</size>
 		<path>./art/vectrex.png</path>
 	</image>
 	
